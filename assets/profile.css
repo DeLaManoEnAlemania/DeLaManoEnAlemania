@@ -203,12 +203,15 @@ background-blend-mode:normal;
   background-color: #2e6138 !important;
 }
 .my_name {
-  font-size: 2.5rem;
+  padding-top: 30%;
+  font-size: 2.0rem;
   font-weight: 600;
   letter-spacing: 4px;
   animation-name: myname;
   animation-duration: 2s;
   animation-iteration-count: 1;
+  background-color: #1a252f;
+  opacity: 50%;
 }
 .my_name2 {
   font-size: 2.5rem;
@@ -226,6 +229,9 @@ background-blend-mode:normal;
   }
 }
 .desc {
+  align-items: center;
+  align-content: center;
+  /* padding-top: 20%; */
   font-weight: 200;
   margin: 0.4em 0;
   font-size: 2.2em;
@@ -253,10 +259,11 @@ background-blend-mode:normal;
   /* background-image: url("./Delamano_circle.png"); */
   background-image: url("./DeLaManoEnAlemania_final.png");
   width: 100%;
-  height:1100px;
+  height:100%;
   justify-content: center;
   position: absolute;
   align-items: center;
+  /* display: flex; */
   /* overflow;: */
 
   background-position: center;
@@ -294,7 +301,7 @@ background-blend-mode:normal;
   width: 200px;
 }
 .top-section {
-  height: 100vh;
+  height: 90vh;
 }
 .container {
   width: 100%;
